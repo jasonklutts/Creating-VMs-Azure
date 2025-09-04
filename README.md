@@ -4,8 +4,6 @@
 
 # Creating a Windows and Linux Virtual Machine with Microsoft Azure
 
----
-
 This tutorial outlines how to create and configure both **Windows** and **Linux (Ubuntu)** virtual machines using **Microsoft Azure**.
 
 ---
