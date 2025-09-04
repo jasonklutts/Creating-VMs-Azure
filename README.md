@@ -33,7 +33,10 @@ This tutorial outlines how to create and configure both **Windows** and **Linux 
 ## Deployment and Configuration Steps
 
 ### Step 1: Create Resource Group
-*(Screenshot 2025-06-24 100735 / Screenshot 2025-06-24 101222)*  
+<img width="476" height="178" alt="image" src="https://github.com/user-attachments/assets/2bc40877-512c-4431-b045-f55f8bf1518a" />
+<img width="550" height="295" alt="image" src="https://github.com/user-attachments/assets/e9b458f5-355f-469e-8f84-36b4dcedc92f" />
+
+
 
 From the Azure home page:  
 - Go to **Resource Groups** → **Create new**  
@@ -43,7 +46,8 @@ From the Azure home page:
 ---
 
 ### Step 2: Create Windows 10 Virtual Machine
-*(Screenshot 2025-06-24 103202)*  
+<img width="552" height="672" alt="image" src="https://github.com/user-attachments/assets/8325a84a-92a7-4b78-a7bc-7b1dc83a0bf5" />
+
 
 - Azure Home → **Virtual Machines** → **Create New**  
 - Select **Resource Group**, **VM Name**, **Region**, and **Zone**  
@@ -53,7 +57,8 @@ From the Azure home page:
 ---
 
 ### Step 3: Configure Networking for Windows VM
-*(Screenshot 2025-06-24 103746)*  
+<img width="554" height="721" alt="image" src="https://github.com/user-attachments/assets/b08da6cf-4718-4757-946a-7766bc257472" />
+
 
 - In the **Networking** tab, specify a **Virtual Network Name**  
 - This will later be shared with the Linux VM  
@@ -62,7 +67,8 @@ From the Azure home page:
 ---
 
 ### Step 4: Verify Windows VM Deployment
-*(Screenshot 2025-06-24 104839)*  
+<img width="416" height="697" alt="image" src="https://github.com/user-attachments/assets/3eb21764-a997-4816-99fa-1b6530f42aad" />
+
 
 After deployment, click the Windows VM to view network info:  
 - Operating System  
@@ -76,7 +82,8 @@ This setup will mirror what is created for the Linux VM.
 ---
 
 ### Step 5: Create Linux Virtual Machine
-*(Screenshot 2025-06-24 112658)*  
+<img width="622" height="747" alt="image" src="https://github.com/user-attachments/assets/18f336a4-19de-45ef-8864-6e1cef707f78" />
+
 
 - Go to **Virtual Machines** → **Create New**  
 - Select the same **Resource Group**, **Virtual Network**, **Region**, and **Zone**  
@@ -86,7 +93,8 @@ This setup will mirror what is created for the Linux VM.
 ---
 
 ### Step 6: Configure Networking for Linux VM
-*(Screenshot 2025-06-24 112754)*  
+<img width="554" height="730" alt="image" src="https://github.com/user-attachments/assets/049e9787-2f82-4b42-befe-adcec901da04" />
+ 
 
 - Ensure the **Virtual Network Name** matches the Windows VM’s Vnet  
 - Click **Review + Create**
@@ -94,7 +102,7 @@ This setup will mirror what is created for the Linux VM.
 ---
 
 ### Step 7: Verify Deployment of Both VMs
-*(Screenshot 2025-06-24 115904)*  
+ <img width="746" height="234" alt="image" src="https://github.com/user-attachments/assets/331f76b1-2373-469f-a6c7-8af8474c688d" />
 
 Once deployed, both Windows and Linux VMs will appear under **Virtual Machines** in the Azure portal.  
 
