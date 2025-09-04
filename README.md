@@ -9,11 +9,6 @@ This tutorial outlines how to create and configure both **Windows** and **Linux 
 
 ---
 
-## Video Demonstration
-- [Creating and Deploying Windows and Linux Virtual Machines with Microsoft Azure](https://www.youtube.com/watch?v=RgNFd2AM7hs)
-
----
-
 ## Environments and Technologies Used
 - Microsoft Azure  
 - Virtual Machines (VMs)
