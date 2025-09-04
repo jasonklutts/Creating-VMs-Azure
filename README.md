@@ -2,7 +2,6 @@
 <img width="517" height="332" alt="image" src="https://github.com/user-attachments/assets/9d4ab107-9a51-4dc5-a664-93380c696408" />
 </p>
 
-
 # Creating a Windows and Linux Virtual Machine with Microsoft Azure
 
 ---
